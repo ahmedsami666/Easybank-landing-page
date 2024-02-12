@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    font-family: 'Public Sans', sans-serif;
+}
+/*header*/
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 2% 5%;
+    align-items: center;
+}
+button {
+    width: max-content;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    color: white;
+    background-image: linear-gradient(to right,hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+}
+.header button {
+    justify-self: end;
+}
+.header div{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+}
