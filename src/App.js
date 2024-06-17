@@ -11,7 +11,7 @@ import Footer from "./components/Footer";
 /**
       
 
-      <Articles />
+      
       <Footer />
       <CopyRights />
  */
@@ -22,6 +22,7 @@ function App() {
       <Intro />
       <Easybank />
       <Features />
+      <Articles />
     </div>
   );
 }

@@ -114,3 +114,53 @@ h4 {
     font-weight: 400;
     font-size: 1.5rem;
 }
+.articles {
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    background-color: hsl(0, 0%, 98%);
+}
+h3 {
+    font-weight: 300;
+    font-size: 2rem;
+    grid-column: 1/5;
+}
+.articles img {
+    max-width: 100%;
+}
+.article {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: white;
+    border-radius: 1rem;
+}
+.article span {
+    font-size: 0.75rem;
+}
+h5 {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin: 0.5rem 0;
+}
+.article-data{
+    padding: 0 1rem 1rem;
+}
+.currency {
+    background: url(./images/image-currency.jpg);
+}
+.restaurant {
+    background: url(./images/image-restaurant.jpg);
+}
+.plane {
+    background: url(./images/image-plane.jpg);
+}
+.confetti {
+    background: url(./images/image-confetti.jpg);
+}
+.article-img {
+    height: 15rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
