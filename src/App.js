@@ -9,10 +9,8 @@ import Footer from "./components/Footer";
 
 
 /**
- * 
- *    <Intro />
-      <Easybank />
-      <Features />
+      
+
       <Articles />
       <Footer />
       <CopyRights />
@@ -21,6 +19,9 @@ function App() {
   return (
     <div className="main">
       <Header />
+      <Intro />
+      <Easybank />
+      <Features />
     </div>
   );
 }
