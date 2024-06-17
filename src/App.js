@@ -7,14 +7,6 @@ import Features from "./components/Features";
 import Articles from "./components/Articles";
 import Footer from "./components/Footer";
 
-
-/**
-      
-
-      
-      <Footer />
-      <CopyRights />
- */
 function App() {
   return (
     <div className="main">
@@ -23,6 +15,8 @@ function App() {
       <Easybank />
       <Features />
       <Articles />
+      <Footer />
+      <CopyRights />
     </div>
   );
 }
