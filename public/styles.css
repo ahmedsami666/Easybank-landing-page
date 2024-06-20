@@ -9,7 +9,7 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     padding: 2% 5%;
     align-items: center;
-    z-index: 2;
+    z-index: 3;
     position: relative;
     background: white;
 }
@@ -309,4 +309,20 @@ h5 {
     h3 {
         font-size: 1.5rem;
     }
+}
+.menu {
+    border-radius: 1rem;
+    background-color: white;
+    display: grid;
+    justify-items: center;
+    gap: 1rem;
+    padding: 10% 5%;
+    width: 85%;
+    position: absolute;
+    z-index: 2;
+    margin: auto;
+    right: 0;
+    left: 0;
+    top: 3rem;
+    box-shadow: black 0rem 0rem 20rem 3rem;
 }
